@@ -1,0 +1,104 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+.heading {
+  font-size: 45px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #333333;
+}
+.head-and-card-con {
+  margin-left: 60px;
+}
+.card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 40vh;
+}
+.stopwatch-img-con {
+  display: flex;
+}
+.img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.timer-name {
+  font-family: roboto;
+  font-weight: bold;
+  color: #333333;
+  padding-left: 5px;
+}
+.time {
+  font-size: 45px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #333333;
+}
+.start-button {
+  border-radius: 4px;
+  border-width: 0px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: roboto;
+  background-color: #1db05f;
+  margin-right: 10px;
+}
+.stop-button {
+  border-radius: 4px;
+  border-width: 0px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: roboto;
+  background-color: #ef0d36;
+  margin-right: 10px;
+}
+.reset-button {
+  border-radius: 4px;
+  border-width: 0px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: roboto;
+  background-color: #eaa800;
+  margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    padding: 20px;
+  }
+  .head-and-card-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+  }
+}
