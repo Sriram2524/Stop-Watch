@@ -7,7 +7,7 @@ class StopWatch extends Component {
   state = {seconds: 0}
 
   componentWillUnmount() {
-    clearInterval(this.startTime)
+    clearTimeout(this.intervalId)
   }
 
   onStartButton = () => {
